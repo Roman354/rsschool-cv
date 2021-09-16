@@ -1,0 +1,93 @@
+.flex-box{
+    display:flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    box-shadow: 0 0 0 3px #598C50;
+    background-color: #598C50;
+    }
+    
+    header{
+        background-color: #E6E3DA; /* #C7C7C7*/
+        box-shadow: 0px 0px 0 2px #598C50;
+        
+    }
+    .flexCont{
+        display: flex;
+        justify-content:space-around ;
+        margin: 10px 0 10px 0;
+     
+    }
+    
+    pre{
+    background-color: #E6E3DA;
+    padding-left: 50px;
+    font-size: 22px;
+    box-shadow: 0px 0px 0 2px #598C50;
+    padding: 10px;
+    }
+    
+    
+    
+    .textReg{
+        padding:10px;
+        box-shadow: 0px 0px 0 2px #598C50;
+        background-color: #E6E3DA;
+    }
+    .date{
+        font-size: 35px;
+        
+    }
+    
+    .date:hover{
+        transform:scale(1.1);
+    }
+    section{
+     
+        text-align:left;
+        background-color: #E6E3DA;
+       
+    }
+    ul, ol{ 
+        text-align:left;
+        background-color: #E6E3DA;
+       
+        padding: 10px 0 10px 35px;
+    }
+    b{
+        font-size: 25px;
+    }
+    
+    .Image{
+        border-radius:5px;
+        margin:5px 0 5px 0;
+      
+    }
+    
+    img:hover {
+        transform:scale(0.9);
+    }
+    footer{
+        text-align:start;
+        background-color: #E6E3DA;
+        box-shadow: 0px 0px 0 2px #598C50;  
+    }
+    .number{
+        color:red;
+    }
+    .email{
+        color:black;
+    }
+    .telegram{
+        color:blue;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        background-color: #E6E3DA;
+    }
