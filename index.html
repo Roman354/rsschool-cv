@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="flex-box">
+    <header  >
+      <div class="flexCont">
+        <h1>Roman Bianko </h1>
+          <a href="https://github.com/Roman354">
+            <img class="Image" src="https://avatars.githubusercontent.com/u/83960709?v=4" alt="avatar" width="150" height="150">
+          </a>
+      </div>
+    </header>
+    <main>
+        <h2>Contact information:</h2> 
+        <ul>
+        <li>Phone: <span class="number">+79819863055</span> </li>
+        <li>E-mail: <span class="email">RomanBianko14@gmail.com</span> </li>
+        <li>Telegram: <span class="telegram">@grigoriza</span> </li>
+        </ul>
+         
+        <h2>Personal information:</h2>
+        <p class="textReg">&nbsp;&nbsp; Hello everyone! I signed up for RS Schooll courses to deepen and gain knowledge of a frontend developer.
+        I really like to learn something new every time and enrich my knowledge in development.</p>
+        <p class="textReg">&nbsp;&nbsp; My goals are to get the most out of this course and go on to work as a frontend developer.
+        By nature, I am self-taught, I am ready to take a variety of trainings and courses to improve my qualifications, which in part I do in RS Schooll.</p>
+
+        <h2>Skills and Proficiency</h2>
+        <ul>
+          <li> HTML5, CSS</li>
+          <li> JS Basics</li>
+          <li>  Git, GitHub</li>
+      </ul>
+          <h2>Code example:</h2>
+          <section class="textReg"> 
+          <h3> Codewars task </h3>
+          &nbsp;You are going to be given a word. <br>
+          &nbsp;Your job is to return the middle character of the word. <br>
+          &nbsp;If the word's length is odd, return the middle character. <br>
+          &nbsp;If the word's length is even, return the middle 2 characters.
+        </section>
+        <pre>
+      function getMiddle(s) { 
+          if (s.length%2==0) {
+              let x = s.length/2-1;
+              return(s.substr(x, 2)); 
+            }
+            else {
+              let x=Math.floor((s.length/2))
+              return(s.substr(x, 1)); 
+            }
+        }
+          </pre>
+        <h2>Skills and Proficiency:</h2>
+        <ol>
+        <li>Undergraduate Applied Mathematics and Computer Science</li>
+        <li>HTML academy courses</li>
+        <li>JS <a href="https://learn.javascript.ru/">"https://learn.javascript.ru/"</a></li>
+        <li>RS School. JS / Frontend Development Course at this moment </li>
+        </ol>
+        <details>
+          <summary class="textReg">Languages:</summary>
+          <ul>
+            <li>Russian native language</li>
+            <li>English level <b>- A2</b></li>
+          </ul>
+      </details>
+    </main>
+
+    
+      <footer class="flexCont" >
+        
+        <a href="https://github.com/Roman354">
+          <img  src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="100" height="100" >
+        </a>
+        <p class="date">© 2021</p>
+        <a href="https://rs.school/js/">
+          <img  src="https://rs.school/images/rs_school_js.svg" alt="logoRS" width="100" height="100" >
+        </a>
+      </footer>
+    </div>
+</body>
+</html>
